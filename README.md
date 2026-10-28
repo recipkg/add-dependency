@@ -4,6 +4,8 @@
 
 Read [SKILL.md](SKILL.md) for the workflow and linked resources. This is the canonical standalone skill repository used by [Recipkg](https://github.com/recipkg/recipkg).
 
+When changing Git pins or retaining historical versions, check locked recursive revisions, deterministic packing and isolated version-specific installation and builds. Record checks that could not be run.
+
 ## Use as a project submodule
 
 ```sh
@@ -18,3 +20,5 @@ This repository is also a Markdown-only Recipkg skill recipe: validate with `rec
 ## 中文
 
 本仓库只维护 `add-dependency` 技能。不同项目应把此同一仓库作为固定提交的 Git 子模块引用，不复制技能正文。修改先回本仓库，再更新项目指针；注意保护本地改动。技能入口与说明见 [SKILL.md](SKILL.md)。
+
+更新 Git 固定提交或保留历史版本时，检查锁定的递归提交、可重复打包，以及隔离环境中的按版本安装和构建；未执行的检查须记录。

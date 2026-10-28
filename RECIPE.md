@@ -5,7 +5,7 @@ format = "recipkg/1"
 
 [package]
 name = "add-dependency"
-version = "0.1.0"
+version = "0.1.1"
 kind = "skill"
 description = "为 Recipkg 配方声明并集成一个具体依赖，核对递归关系、接口、来源和固定版本。用于添加依赖、引入现有软件配方或接入 GitHub 配方仓库。"
 entry = "SKILL.md"
